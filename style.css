@@ -1,0 +1,117 @@
+@font-face {font-family: 'yg-jalnan';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');font-weight: normal;font-style: normal; }
+.me {padding-top: 60px; }
+.Click,.Hi {font-family: 'yg-jalnan'; font-size: medium;}
+.ABOUT {font-family: 'yg-jalnan'; font-size: xx-large; color: rgb(57,54,51);}
+.instagram {padding-right: 10px;}
+.facebook {padding-right: 10px;}
+.message {padding-left: 10px;}
+
+
+.speech-bubble {
+	position: relative;
+    background: rgb(165, 165, 165);
+    color: white;
+    border-radius: .4em;
+    height:100px;
+    width:250px;
+    margin-top: -500px;
+    margin-left: calc(50% - 440px);
+    text-align: center;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0; 
+	height: 0px;
+	border: 20px solid transparent;
+	border-right-color:rgb(165, 165, 165);
+	border-left: 0;
+	border-top: 0;
+	margin-top: -10px;
+	margin-left: -20px;
+}
+p {line-height: 100px;/*padding-top: 35px*/; font-size: large;}
+
+.speech-bubble2 {
+	position: relative;
+    background: rgb(110, 213, 110);
+    color: white;
+    border-radius: .4em;
+    height:100px;
+    width:250px;
+    margin-top:  30px;
+    margin-left: calc(50% - 400px);
+    text-align: center;
+}
+
+.speech-bubble2:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0; 
+	height: 0px;
+	border: 21px solid transparent;
+	border-left-color: rgb(110, 213, 110);
+	border-right: 0;
+	border-top: 0;
+	margin-top: -10.5px;
+    margin-right: -21px;
+}
+
+.speech-bubble3 {
+	position: relative;
+    background:rgb(165, 165, 165);
+    color: white;
+    border-radius: .4em;
+    height:100px;
+    width:250px;
+    margin-top:  -250px;
+/*    margin-right: calc(50% - 400px);*/
+    margin-left: calc(50% + 170px);
+    text-align: center;
+}
+
+.speech-bubble3:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0; 
+	height: 0px;
+	border: 21px solid transparent;
+	border-left-color: rgb(165, 165, 165);
+	border-right: 0;
+	border-top: 0;
+	margin-top: -10.5px;
+    margin-right: -21px;
+}
+.speech-bubble4 {
+	position: relative;
+    background: rgb(110, 213, 110);
+    color: white;
+    border-radius: .4em;
+    height:100px;
+    width:250px;
+    margin-top: 30px;
+    margin-left: calc(50% + 145px);
+    text-align: center;
+}
+
+.speech-bubble4:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0; 
+	height: 0px;
+	border: 20px solid transparent;
+	border-right-color: rgb(110, 213, 110);
+	border-left: 0;
+	border-top: 0;
+	margin-top: -10px;
+	margin-left: -20px;
+}
