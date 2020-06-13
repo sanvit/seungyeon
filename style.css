@@ -5,7 +5,20 @@
 .instagram {padding-right: 10px;}
 .facebook {padding-right: 10px;}
 .message {padding-left: 10px;}
+body {
+	background: url('backimg.gif') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 
+#container {
+	margin: 20px;
+	width: 300px;
+	height: 8px;
+	position: relative;
+}
 
 .speech-bubble {
 	position: relative;

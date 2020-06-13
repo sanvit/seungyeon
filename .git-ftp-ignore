@@ -1,0 +1,6 @@
+.gitignore
+*/.gitignore
+.github/*
+.vscode/*
+.git-ftp-ignore
+README.md
